@@ -14,6 +14,10 @@
     color: white;
 }
 
+img::selection{
+    background-color: var(--yellow);
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     word-break: break-word;
@@ -209,6 +213,7 @@ nav{
     height: 226px;
     background-color: #fff;
     border-radius: 10px;
+    transition: box-shadow 0.2s ease-out;
 }
 
 .card__icon{
@@ -233,8 +238,14 @@ nav{
     cursor: pointer;
 }
 
+.card__cta:hover > img{
+    margin-right: 16px;
+    transition: margin 0.2s ease-out;
+}
+
 .card__cta img{
     margin-right: 6px;
+    transition: margin 0.2s ease-out;
 }
 
 a.canvasjs-chart-credit{
@@ -329,8 +340,14 @@ a.canvasjs-chart-credit{
     color: var(--black);
 }
 
+.factor__terug a:hover > img{
+    margin-right: 20px;
+    transition: margin 0.2s ease-out;
+}
+
 .factor__terug a img{
     margin-right: 10px;
+    transition: margin 0.2s ease-out;
 }
 
 .factor__title{

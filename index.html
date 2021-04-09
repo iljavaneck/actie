@@ -53,11 +53,13 @@
                 </div>
                 <div class="intro__right">
                     <h2>Mensen met een verworven neurologische aandoening (bijvoorbeeld volwassenen na een beroerte), moeten bewegingen vaak opnieuw leren en verbeteren om weer zelfstandig te kunnen functioneren.</h2>
-                    <p> In dit onderzoek werken Zuyd Hogeschool, VU Amsterdam, Universiteit Hasselt, Brunel University (UK), Radboud Universiteit, Kennisnetwerk CVA Nederland en Paramedisch Centrum Zuid samen.
+                    <p>Dit proces van motorisch leren is complex en multifactorieel. Zorgprofessionals zoals fysio- en ergotherapeuten willen graag meer inzicht hebben in deze complexiteit zodat zij interventies (nog) meer op maat kunnen aanbieden. Dit maatwerk is nodig voor het duurzaam aanleren en verbeteren van bewegingen.
                     <br><br>
-                        Experts vanuit deze partnerinstellingen hebben een eerste versie van een lijst van 26 factoren samengesteld (gebaseerd op literatuur en eigen ervaringen) die het aanleren van bewegingen bij mensen na een beroerte in de praktijk (mogelijk) kunnen beïnvloeden.
+                    Op het moment is onvoldoende duidelijk welke factoren (mogelijk) van invloed zijn. Docenten, studenten en praktijkbegeleiders van de zorgopleidingen van Zuyd Hogeschool hebben samen met onderzoekers sterk behoefte aan een beter en vollediger overzicht van deze potentieel beïnvloedende factoren. 
                     <br><br>
-                    Deze lijst van factoren is vervolgens in een enquête voorgelegd aan zorgprofessionals (bijv. fysiotherapeuten, ergotherapeuten, verpleegkundigen, bewegingsagogen, maar ook andere disciplines) die praktijkervaring hebben met het aanleren of verbeteren van bewegingen of motorische vaardigheden bij mensen na een CVA. Op deze webpagina worden de (deel)resultaten van deze enquête weergegeven. 
+                    De doelstelling van dit project is een inventarisatie maken van factoren die het leren van bewegingen bij mensen na beroerte in de praktijk kunnen beïnvloeden. Hiervoor heeft een expertpanel een overzicht van factoren samengesteld op basis van theorie en onderzoeksresultaten. Vervolgens is deze lijst in een enquête voorgelegd aan zorgprofessionals (bijv. fysiotherapeuten, ergotherapeuten, verpleegkundigen en bewegingsagogen) die praktijkervaring hebben met het aanleren of verbeteren van bewegingen of motorische vaardigheden bij mensen na een beroerte. Op deze webpagina worden de (deel)resultaten van deze enquête weergegeven. 
+                    <br><br>
+                    Aan dit project is samengewerkt met Zuyd Hogeschool, VU Amsterdam, Universiteit Hasselt, Brunel University (UK), Radboud Universiteit, Kennisnetwerk CVA Nederland en Paramedisch Centrum Zuid.
                     </p>
                 </div>
             </div>
@@ -191,6 +193,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 <script>
+
+        $(".card__cta").mouseover(function() {
+            if($(this).parent().hasClass("green")){
+                $(this).parent().css("box-shadow", "0px 0px 30px #61bb8d");
+            } else if($(this).parent().hasClass("blue")){
+                $(this).parent().css("box-shadow", "0px 0px 30px #317FF6");
+            } else if($(this).parent().hasClass("yellow")){
+                $(this).parent().css("box-shadow", "0px 0px 30px #FFC727");
+            } else if($(this).parent().hasClass("pink")){
+                $(this).parent().css("box-shadow", "0px 0px 30px #D53668");
+            }
+        }).mouseleave(function(){
+            $(".card").css("box-shadow", "0px 0px 0px #fff");
+        });
 
     window.onload = function () {
 
