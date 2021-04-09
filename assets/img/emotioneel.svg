@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="emotioneel" transform="translate(-172.75 -3384)">
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="36" height="36" rx="5" transform="translate(172.75 3384)" fill="#ffc727" opacity="0.196"/>
+    <g id="_004-feedback" data-name="004-feedback" transform="translate(178.628 3389.878)">
+      <path id="Path_1493" data-name="Path 1493" d="M24.244,53.963A12.122,12.122,0,1,0,12.122,66.085,12.136,12.136,0,0,0,24.244,53.963ZM12.122,64.482A10.519,10.519,0,1,1,22.641,53.963,10.531,10.531,0,0,1,12.122,64.482Z" transform="translate(0 -41.841)" fill="#ffc727"/>
+      <path id="Path_1494" data-name="Path 1494" d="M59.907,129.029v-1.562a.8.8,0,0,0-1.6,0v1.562a.8.8,0,0,0,1.6,0Z" transform="translate(-52.061 -117.583)" fill="#ffc727"/>
+      <path id="Path_1495" data-name="Path 1495" d="M153.94,126.666a.8.8,0,0,0-.8.8v1.562a.8.8,0,1,0,1.6,0v-1.562A.8.8,0,0,0,153.94,126.666Z" transform="translate(-136.74 -117.583)" fill="#ffc727"/>
+      <path id="Path_1496" data-name="Path 1496" d="M76.494,178.591a.8.8,0,0,0-1.112.221,4.23,4.23,0,0,1-6.982.08.8.8,0,0,0-1.312.922,5.832,5.832,0,0,0,4.775,2.483h.095a5.838,5.838,0,0,0,4.757-2.593A.8.8,0,0,0,76.494,178.591Z" transform="translate(-59.775 -163.827)" fill="#ffc727"/>
+    </g>
+  </g>
+</svg>
