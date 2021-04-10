@@ -4,9 +4,16 @@
     --pink: #D53668;
     --green: #61BB8D;
     --yellow: #FFC727;
+    --orange: #FF581A;
     --blue: #317FF6;
     --grey: #DADADA;
     --white: #FAFAFA;
+
+     
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 ::selection{
@@ -48,9 +55,13 @@ nav{
 }
 
 .nav__link{
-    text-decoration: none;
+    text-decoration: underline var(--pink);
     color: var(--black);
-} .nav__link:hover{color: var(--hover)}
+}
+
+.nav__link:hover{
+    color: var(--pink)
+}
 
 
 
@@ -91,20 +102,42 @@ nav{
     margin: 20px 0px 70px 0px;
 }
 
-.header__left a{
-    color: white;
-    background-color: var(--pink);
+a.button__container{
     text-decoration: none;
-    font-weight: 500;
-    padding: 13px 32px;
-    border-radius: 5px;
-    transition: opacity 0.2s ease-in-out;
 }
 
-.header__left a:hover{
-    opacity: 0.8;
-    transition: opacity 0.2s ease-in-out;
+div.button__content:hover .top__arrow{
+    margin-top: 0px;
+    transition: margin 0.3s ease-out;
 }
+
+.button__content{
+    width: 220px;
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button__text{
+    color: var(--pink);
+    margin: 0px !important;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.arrow__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top__arrow{
+    margin-top: -50px;
+    margin-bottom: 20px;
+    transition: margin 0.3s ease-out;
+}
+
 
 
 .logo__bar{
@@ -163,12 +196,13 @@ nav{
     display: flex;
     margin-left: 0;
     margin-right: 50px;
+    color: var(--pink);
 }
 
 .intro__line{
     height: 2px;
     width: 60px;
-    background-color: var(--black);
+    background-color: var(--pink);
     margin-top: 7px;
     margin-left: 5px;
 }
@@ -218,8 +252,8 @@ nav{
 
 .card__icon{
     margin: 30px 30px 20px 30px;    
-    width: 36px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
 }
 
 .card h5{
@@ -398,6 +432,15 @@ a.canvasjs-chart-credit{
     max-width: 575px;
 }
 
+.sub__card.home{
+    padding: 45px 60px 45px 0px;
+}
+
+.sub__card.home h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+
 .sub__card h2{
     font-size: 30px;
     line-height: 40px;
@@ -458,6 +501,12 @@ a.canvasjs-chart-credit{
 }
 .legend__bubble.pink{
     background-color: var(--pink);
+}
+.legend__bubble.orange{
+    background-color: var(--orange);
+}
+.legend__bubble.grey{
+    background-color: var(--hover);
 }
 
 .quote{

@@ -23,7 +23,7 @@
                 <a href="index.html">
                     <img src="assets/img/nav_logo.svg" alt="Logo reading 'ACTIE onderzoek'">
                 </a>
-                <a class="nav__link" href="#">Alle onderzoeksresultaten</a>
+                <a class="nav__link" href="#factoren">Alle onderzoeksresultaten</a>
             </div>
         </nav>
 
@@ -31,7 +31,15 @@
             <div class="header__left">
                 <h1>Resultaten project: "Aanpak van Complexiteit neurorevalidaTIE" (ACTIE): Motorisch leren na een beroerte <span class="heading__italic">beter begrijpen</span></h1>
                 <p>Het doel van dit project was om factoren te inventariseren die het aanleren van bewegingen bij mensen na beroerte in de praktijk (mogelijk) kunnen beïnvloeden.</p>
-                <a href="">Bekijk de resultaten</a>
+                <a class="button__container" href="#factoren">
+                    <div class="button__content">
+                        <p class="button__text">Bekijk de resultaten</p>
+                        <div class="arrow__container">
+                            <img class="top__arrow" src="assets/img/arrow_down.svg" alt="decorative">
+                            <img src="assets/img/arrow_down.svg" alt="decorative">
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="header__right">
                 <img src="assets/img/home_header.svg" alt="vector illustration of a doctor from stories.freepik">
@@ -65,7 +73,7 @@
             </div>
         </section>
 
-        <section class="factoren">
+        <section class="factoren" id="factoren">
             <div class="factoren__text">
                 <h3>Bekijk hier de uitgebreide onderzoeksresultaten per categorie:</h3>
                 <p>Dit zijn de 8 hoofdcategorieën waarin alle 26 factoren zijn opgedeeld. Klik op een kaartje om uitgebreide resultaten te lezen.</p>
@@ -149,9 +157,116 @@
                     <p>In totaal hebben er 54 mensen deelgenomen. De gemiddelde leeftijd van de deelnemers was 46 jaar, en het gemiddeld aantal jaren werkervaring was 21 jaar. De deelnemers behandelen gemiddeld 10,5 CVA-patiënten per week.
                         <br><br>
                     </p>
-                    <div class="intro__diagram" id="werkzaamAlsContainer" style="height: 350px; width: 100%;"></div>
-                    <div class="intro__diagram" id="werkzaamBinnenContainer" style="height: 350px; width: 100%;"></div>
-                    <div class="intro__diagram" id="werkzaamFaseContainer" style="height: 350px; width: 100%;"></div>
+
+                    <div class="sub__card home">
+                        <h2>De deelnemers waren werkzaam als:</h2>
+                        <div class="sub__content home">
+                            <div class="sub__legend">
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble pink">40</div>
+                                    <p>Fysiotherapeut</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble yellow">13</div>
+                                    <p>Ergotherapeut</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble blue">8</div>
+                                    <p>Docent</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble green">1</div>
+                                    <p>Bewegingsagoog</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble orange">1</div>
+                                    <p>Docent</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble grey">1</div>
+                                    <p>Verzorgende</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble black">1</div>
+                                    <p>Managementfunctie</p>
+                                </div>
+                                </div>
+                                <div class="sub__img">
+                                    <img src="assets/img/werkzaamAls.svg" alt="doughnut graph">
+                                </div>
+                            <div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="sub__card home">
+                        <h2>De deelnemers waren werkzaam binnen een:</h2>
+                        <div class="sub__content home">
+                            <div class="sub__legend">
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble pink">38</div>
+                                    <p>Revalidatiecentrum of afdeling</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble yellow">19</div>
+                                    <p>Eerstelijns praktijk</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble blue">7</div>
+                                    <p>Ziekenhuis</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble green">3</div>
+                                    <p>Onderwijsinstelling</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble orange">2</div>
+                                    <p>Thuiszorg</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble grey">1</div>
+                                    <p>Sportcentrum</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble black">1</div>
+                                    <p>Managementfunctie</p>
+                                </div>
+                                </div>
+                                <div class="sub__img">
+                                    <img src="assets/img/werkzaamBinnen.svg" alt="doughnut graph">
+                                </div>
+                            <div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="sub__card home">
+                        <h2>deelnemers behandelen of begeleiden mensen voornamelijk in de:</h2>
+                        <div class="sub__content home">
+                            <div class="sub__legend">
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble pink">43</div>
+                                    <p>(Hyper-)acute fase (0-24 uur na CVA)</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble yellow">43</div>
+                                    <p>Vroege fase (24 uur tot 3 maanden na CVA)</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble blue">36</div>
+                                    <p>Late fase (>3-6 maanden na CVA)</p>
+                                </div>
+                                <div class="sub__legend__item">
+                                    <div class="legend__bubble green">6</div>
+                                    <p>Chronische fase (>6 maanden na CVA)</p>
+                                </div>
+                                </div>
+                                <div class="sub__img">
+                                    <img src="assets/img/werkzaamFase.svg" alt="doughnut graph">
+                                </div>
+                            <div>
+                        </div>
+                    </div>
+                </div>
+
                 </div>
             </div>
         </section>
@@ -191,7 +306,6 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 <script>
 
         $(".card__cta").mouseover(function() {
@@ -208,320 +322,7 @@
             $(".card").css("box-shadow", "0px 0px 0px #fff");
         });
 
-    window.onload = function () {
 
-        var werkzaamBinnen = {
-        animationEnabled: true,
-        animationDuration: 800,
-        colorSet: "sevenColors",
-      
-        title: {
-            text: "De deelnemers waren werkzaam binnen een:",
-            horizontalAlign: "left",
-            fontFamily: "dolly-new, serif",
-            fontSize: 20,
-            fontColor: "black",
-        },
-
-        legend: {
-            horizontalAlign: "left", // "center" , "right"
-            verticalAlign: "center",  // "top" , "bottom"
-            fontFamily: "poppins, sans-serif",
-            fontWeight: 400,
-            maxHeight: 600,
-            fontSize: 15
-        },
-
-        toolTip:{
-            fontFamily: "poppins, sans-serif",
-        },
-
-        data: [{
-            type: "doughnut",
-            indexLabelPlacement: "inside",
-            indexLabelFontFamily: "poppins, sans-serif",
-            indexLabelFontColor: "white",
-            indexLabelFontSize: 13,
-            innerRadius: "50%",
-            showInLegend: true,
-            legendText: "{label}",
-            indexLabel: "{label}: #percent%",
-            dataPoints: [
-                { indexLabel: "38", label: "revalidatiecentrum of afdeling", y: 38},
-                { indexLabel: "19", label: "Eerstelijns praktijk", y: 19 },
-                { indexLabel: "7", label: "Ziekenhuis", y: 7 },
-                { indexLabel: "3", label: "Verpleeghuis", y: 3 },
-                { indexLabel: "2", label: "Onderwijsinstelling", y: 2 },
-                { indexLabel: "1", label: "Thuiszorg", y: 1 },
-                { indexLabel: "1", label: "Sportcentrum", y: 1 }
-            ]
-        }]
-    };
-        var werkzaamAls = {
-        animationEnabled: true,
-        animationDuration: 800,
-        colorSet: "sevenColors",
-      
-        title: {
-            text: "De deelnemers waren werkzaam als:",
-            horizontalAlign: "left",
-            fontFamily: "dolly-new, serif",
-            fontSize: 20,
-            fontColor: "black",
-        },
-
-        legend: {
-            horizontalAlign: "left", // "center" , "right"
-            verticalAlign: "center",  // "top" , "bottom"
-            fontFamily: "poppins, sans-serif",
-            fontWeight: 400,
-            maxHeight: 600,
-            fontSize: 15
-        },
-
-        toolTip:{
-            fontFamily: "poppins, sans-serif",
-        },
-
-        data: [{
-            type: "doughnut",
-            indexLabelPlacement: "inside",
-            indexLabelFontFamily: "poppins, sans-serif",
-            indexLabelFontColor: "white",
-            indexLabelFontSize: 13,
-            innerRadius: "50%",
-            showInLegend: true,
-            legendText: "{label}",
-            indexLabel: "{label}: #percent%",
-            dataPoints: [
-                { indexLabel: "40", label: "Fysiotherapeut", y: 40},
-                { indexLabel: "13", label: "Ergotherapeut", y: 13 },
-                { indexLabel: "8", label: "Docent", y: 8 },
-                { indexLabel: "1", label: "Bewegingsagoog", y: 1 },
-                { indexLabel: "1", label: "Onderzoeker", y: 1 },
-                { indexLabel: "1", label: "Verzorgende", y: 1 },
-                { indexLabel: "1", label: "Managementfunctie", y: 1 }
-            ]
-        }]
-    };
-        var werkzaamFase = {
-        animationEnabled: true,
-        animationDuration: 800,
-        colorSet: "fiveColors",
-      
-        title: {
-            text: "Deelnemers behandelen of begeleiden mensen voornamelijk in de:",
-            horizontalAlign: "left",
-            fontFamily: "dolly-new, serif",
-            fontSize: 20,
-            fontColor: "black",
-        },
-
-        legend: {
-            horizontalAlign: "left", // "center" , "right"
-            verticalAlign: "center",  // "top" , "bottom"
-            fontFamily: "poppins, sans-serif",
-            fontWeight: 400,
-            maxHeight: 600,
-            fontSize: 15
-        },
-
-        toolTip:{
-            fontFamily: "poppins, sans-serif",
-        },
-
-        data: [{
-            type: "doughnut",
-            indexLabelPlacement: "inside",
-            indexLabelFontFamily: "poppins, sans-serif",
-            indexLabelFontColor: "white",
-            indexLabelFontSize: 13,
-            innerRadius: "50%",
-            showInLegend: true,
-            legendText: "{label}",
-            indexLabel: "{label}: #percent%",
-            dataPoints: [
-                { indexLabel: "6", label: "(Hyper-)acute fase (0-24 uur na CVA)", y: 6},
-                { indexLabel: "43", label: "Vroege fase (24 uur tot 3 maanden na CVA)", y: 43 },
-                { indexLabel: "43", label: "Late fase (>3-6 maanden na CVA)", y: 43 },
-                { indexLabel: "36", label: "Chronische fase (>6 maanden na CVA)", y: 36 },
-            ]
-        }]
-    };
-        var werkzaamBinnenMobile = {
-        animationEnabled: true,
-        animationDuration: 800,
-        colorSet: "sevenColors",
-      
-        title: {
-            text: "De deelnemers waren werkzaam binnen een:",
-            horizontalAlign: "left",
-            fontFamily: "dolly-new, serif",
-            fontSize: 20,
-            fontColor: "black",
-        },
-
-        legend: {
-            horizontalAlign: "center", // "center" , "right"
-            verticalAlign: "bottom",  // "top" , "bottom"
-            fontFamily: "poppins, sans-serif",
-            fontWeight: 400,
-            fontSize: 15
-        },
-
-        toolTip:{
-            fontFamily: "poppins, sans-serif",
-        },
-
-        data: [{
-            type: "doughnut",
-            indexLabelPlacement: "inside",
-            indexLabelFontFamily: "poppins, sans-serif",
-            indexLabelFontColor: "white",
-            indexLabelFontSize: 13,
-            innerRadius: "50%",
-            showInLegend: true,
-            legendText: "{label}",
-            indexLabel: "{label}: #percent%",
-            dataPoints: [
-                { indexLabel: "38", label: "revalidatiecentrum of afdeling", y: 38},
-                { indexLabel: "19", label: "Eerstelijns praktijk", y: 19 },
-                { indexLabel: "7", label: "Ziekenhuis", y: 7 },
-                { indexLabel: "3", label: "Verpleeghuis", y: 3 },
-                { indexLabel: "2", label: "Onderwijsinstelling", y: 2 },
-                { indexLabel: "1", label: "Thuiszorg", y: 1 },
-                { indexLabel: "1", label: "Sportcentrum", y: 1 }
-            ]
-        }]
-    };
-        var werkzaamAlsMobile = {
-        animationEnabled: true,
-        animationDuration: 800,
-        colorSet: "sevenColors",
-      
-        title: {
-            text: "De deelnemers waren werkzaam als:",
-            horizontalAlign: "left",
-            fontFamily: "dolly-new, serif",
-            fontSize: 20,
-            fontColor: "black",
-        },
-
-        legend: {
-            horizontalAlign: "center", // "center" , "right"
-            verticalAlign: "bottom",  // "top" , "bottom"
-            fontFamily: "poppins, sans-serif",
-            fontWeight: 400,
-            fontSize: 15
-        },
-
-        toolTip:{
-            fontFamily: "poppins, sans-serif",
-        },
-
-        data: [{
-            type: "doughnut",
-            indexLabelPlacement: "inside",
-            indexLabelFontFamily: "poppins, sans-serif",
-            indexLabelFontColor: "white",
-            indexLabelFontSize: 13,
-            innerRadius: "50%",
-            showInLegend: true,
-            legendText: "{label}",
-            indexLabel: "{label}: #percent%",
-            dataPoints: [
-                { indexLabel: "40", label: "Fysiotherapeut", y: 40},
-                { indexLabel: "13", label: "Ergotherapeut", y: 13 },
-                { indexLabel: "8", label: "Docent", y: 8 },
-                { indexLabel: "1", label: "Bewegingsagoog", y: 1 },
-                { indexLabel: "1", label: "Onderzoeker", y: 1 },
-                { indexLabel: "1", label: "Verzorgende", y: 1 },
-                { indexLabel: "1", label: "Managementfunctie", y: 1 }
-            ]
-        }]
-    };
-        var werkzaamFaseMobile = {
-        animationEnabled: true,
-        animationDuration: 800,
-        colorSet: "sevenColors",
-      
-        title: {
-            text: "Deelnemers behandelen of begeleiden mensen voornamelijk in de:",
-            horizontalAlign: "left",
-            fontFamily: "dolly-new, serif",
-            fontSize: 20,
-            fontColor: "black",
-        },
-
-        legend: {
-            horizontalAlign: "center", // "center" , "right"
-            verticalAlign: "bottom",  // "top" , "bottom"
-            fontFamily: "poppins, sans-serif",
-            fontWeight: 400,
-            fontSize: 15
-        },
-
-        toolTip:{
-            fontFamily: "poppins, sans-serif",
-        },
-
-        data: [{
-            type: "doughnut",
-            indexLabelPlacement: "inside",
-            indexLabelFontFamily: "poppins, sans-serif",
-            indexLabelFontColor: "white",
-            indexLabelFontSize: 13,
-            innerRadius: "50%",
-            showInLegend: true,
-            legendText: "{label}",
-            indexLabel: "{label}: #percent%",
-            dataPoints: [
-                { indexLabel: "6", label: "(Hyper-)acute fase (0-24 uur na CVA)", y: 6},
-                { indexLabel: "43", label: "Vroege fase (24 uur tot 3 maanden na CVA)", y: 43 },
-                { indexLabel: "43", label: "Late fase (>3-6 maanden na CVA)", y: 43 },
-                { indexLabel: "36", label: "Chronische fase (>6 maanden na CVA)", y: 36 },
-            ]
-        }]
-    };
-
-
-    CanvasJS.addColorSet("sevenColors",
-        [//colorSet Array
-        "#101010",
-        "#B4B4B4",
-        "#317FF6",
-        "#61BB8D",
-        "#FFC727",
-        "#D53668",
-        "#FF581A",                
-        ]);
-
-    CanvasJS.addColorSet("fiveColors",
-        [//colorSet Array
-        "#101010",
-        "#317FF6",
-        "#61BB8D",
-        "#FFC727",
-        "#D53668",             
-        ]);
-   
-
-
-            if ($(window).width() < 500) {
-                $("#werkzaamAlsContainer").CanvasJSChart(werkzaamAlsMobile);
-                $("#werkzaamBinnenContainer").CanvasJSChart(werkzaamBinnenMobile);
-                $("#werkzaamFaseContainer").CanvasJSChart(werkzaamFaseMobile);
-            }
-            else {
-                $("#werkzaamAlsContainer").CanvasJSChart(werkzaamAls);
-                $("#werkzaamBinnenContainer").CanvasJSChart(werkzaamBinnen);
-                $("#werkzaamFaseContainer").CanvasJSChart(werkzaamFase);
-            }
-    
-    
-
-    
-    }
     </script>
 
 
