@@ -7,9 +7,7 @@
     --orange: #FF581A;
     --blue: #317FF6;
     --grey: #DADADA;
-    --white: #FAFAFA;
-
-     
+    --white: #FAFAFA;     
 }
 
 html{
@@ -407,6 +405,7 @@ a.canvasjs-chart-credit{
     position: absolute;
     top: -120px;
     right: 0;
+    z-index: -1;
 }
 
 .subfactoren{
