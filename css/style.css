@@ -768,6 +768,10 @@ a.canvasjs-chart-credit{
         padding: 0px 30px;
     }
 
+    .intro__right{
+        margin: unset;
+    }
+
     .factoren__text h3{
         max-width: none;
     }
@@ -805,6 +809,7 @@ a.canvasjs-chart-credit{
 
     .title__text h1{
         font-size: 40px;
+        line-height: 50px;
     }
     .title__text p{
         font-size: 17px;
