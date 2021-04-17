@@ -26,6 +26,7 @@ img::selection{
 body{
     font-family: 'Poppins', sans-serif;
     word-break: break-word;
+    position: relative;
 }
 
 body strong{
@@ -737,6 +738,11 @@ a.canvasjs-chart-credit{
     .legend__bubble{
         margin-right: 10px;
         margin-left: 10px;
+    }
+
+    .title__text h1{
+        font-size: 40px;
+        line-height: 50px;
     }
 
 }
