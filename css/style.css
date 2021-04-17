@@ -27,6 +27,7 @@ body{
     font-family: 'Poppins', sans-serif;
     word-break: break-word;
     position: relative;
+    overflow-x: hidden;
 }
 
 body strong{
