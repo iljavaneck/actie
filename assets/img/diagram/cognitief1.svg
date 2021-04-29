@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.06 226.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc727;
+      }
+
+      .cls-2 {
+        fill: #ffd671;
+      }
+
+      .cls-3 {
+        fill: #ffdf99;
+      }
+
+      .cls-4 {
+        fill: #fce7c3;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="cognitief1">
+        <g>
+          <path class="cls-1" d="M113,113,15.16,169.52A113,113,0,0,1,56.53,15.14,108.34,108.34,0,0,1,113,0Z" transform="translate(0)"/>
+          <path class="cls-2" d="M113,113l61.55-94.78A113,113,0,1,1,51.48,207.79a109.23,109.23,0,0,1-36.32-38.27Z" transform="translate(0)"/>
+          <path class="cls-3" d="M113,113,124.84.62a109.18,109.18,0,0,1,49.74,17.61Z" transform="translate(0)"/>
+          <path class="cls-4" d="M113,113V0a93.07,93.07,0,0,1,11.81.62Z" transform="translate(0)"/>
+        </g>
+        <circle class="cls-5" cx="113.03" cy="113.01" r="76.08"/>
+      </g>
+    </g>
+  </g>
+</svg>

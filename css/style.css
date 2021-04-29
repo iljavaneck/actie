@@ -1,11 +1,29 @@
 :root{
     --black: #101010;
     --hover: #8D8D8D;
+
     --pink: #D53668;
+    --pink1: #eabbce;
+    --pink2: #e38fac;
+    --pink3: #dc628a;
+
     --green: #61BB8D;
+    --green1: #c0f2d6;
+    --green2: #a0e0be;
+    --green3: #81cda5;
+
     --yellow: #FFC727;
-    --orange: #FF581A;
+    --yellow1: #fce0a9;
+    --yellow2: #fdd87e;
+    --yellow3: #fecf52;
+
     --blue: #317FF6;
+    --blue1: #bfd3ef;
+    --blue2: #90b7f1;
+    --blue3: #609bf4;
+
+    --orange: #FF581A;
+
     --grey: #DADADA;
     --white: #FAFAFA;     
 }
@@ -190,7 +208,7 @@ div.button__content:hover .top__arrow{
     margin-bottom: 30px;
 }
 
-.intro__right p{
+.intro__p{
     font-size: 18px;
     line-height: 27px;
 }
@@ -211,6 +229,11 @@ div.button__content:hover .top__arrow{
     margin-left: 5px;
 }
 
+.inline__quote{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+}
 
 .factoren{
     background-color: var(--white);
@@ -244,6 +267,14 @@ div.button__content:hover .top__arrow{
     max-width: 40%;
     font-size: 18px;
     line-height: 27px;
+}
+
+.factor__descr{
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    max-width: 90%;
 }
 
 .card{
@@ -492,21 +523,72 @@ a.canvasjs-chart-credit{
 
 }
 
+#legend__bubble__black{
+    color: var(--black);
+}
+
+
 .legend__bubble.black{
     background-color: var(--black);
 }
+
+
 .legend__bubble.blue{
     background-color: var(--blue);
 }
+.legend__bubble.blue1{
+    background-color: var(--blue1);
+}
+.legend__bubble.blue2{
+    background-color: var(--blue2);
+}
+.legend__bubble.blue3{
+    background-color: var(--blue3);
+}
+
+
 .legend__bubble.green{
     background-color: var(--green);
 }
+.legend__bubble.green1{
+    background-color: var(--green1);
+}
+.legend__bubble.green2{
+    background-color: var(--green2);
+}
+.legend__bubble.green3{
+    background-color: var(--green3);
+}
+
+
 .legend__bubble.yellow{
     background-color: var(--yellow);
 }
+.legend__bubble.yellow1{
+    background-color: var(--yellow1);
+}
+.legend__bubble.yellow2{
+    background-color: var(--yellow2);
+}
+.legend__bubble.yellow3{
+    background-color: var(--yellow3);
+}
+
+
 .legend__bubble.pink{
     background-color: var(--pink);
 }
+.legend__bubble.pink1{
+    background-color: var(--pink1);
+}
+.legend__bubble.pink2{
+    background-color: var(--pink2);
+}
+.legend__bubble.pink3{
+    background-color: var(--pink3);
+}
+
+
 .legend__bubble.orange{
     background-color: var(--orange);
 }
@@ -528,6 +610,8 @@ a.canvasjs-chart-credit{
     top: -10px;
     left: -10px;
     z-index: -1;
+    width: 60px;
+    height: auto;
 }
 
 .quote p{

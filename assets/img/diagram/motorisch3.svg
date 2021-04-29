@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260.8 260.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #317ff6;
+      }
+
+      .cls-2 {
+        fill: #609bf4;
+      }
+
+      .cls-3 {
+        fill: #90b7f1;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="motorisch3">
+        <g>
+          <path class="cls-1" d="M130.41,130.38,85.82,252.89A130.38,130.38,0,0,1,7.9,85.78C27,33.41,74.68,0,130.41,0Z"/>
+          <path class="cls-2" d="M130.41,130.38,201.42,21A130.38,130.38,0,0,1,85.82,252.89Z"/>
+          <path class="cls-3" d="M130.41,130.38,144,.71A124.84,124.84,0,0,1,201.42,21Z"/>
+          <path d="M130.41,130.38V0A110.83,110.83,0,0,1,144,.71Z"/>
+        </g>
+        <circle class="cls-4" cx="129.76" cy="132.15" r="87.6"/>
+      </g>
+    </g>
+  </g>
+</svg>
