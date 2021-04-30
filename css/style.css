@@ -235,6 +235,33 @@ div.button__content:hover .top__arrow{
     line-height: 27px;
 }
 
+.quote__inline{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.quote__inline img{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+    width: 60px;
+    height: auto;
+}
+
+.intro__logos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.intro__logos img{
+    width: auto;
+    height: 80px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
 .factoren{
     background-color: var(--white);
     padding: 120px 30px;
